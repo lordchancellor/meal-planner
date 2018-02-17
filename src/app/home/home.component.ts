@@ -10,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [
     'mat-toolbar { justify-content: flex-end; }',
-    'a { display: inline-block; margin: 0 5px; font-size: 1.2rem; font-weight: 400; }'
+    'a { display: inline-block; margin: 0 5px; font-size: 1.2rem; font-weight: 400; }',
+    'a:first-of-type { margin-left: 0; }',
+    'a:last-of-type { margin-right: 0; }'
   ]
 })
 export class HomeComponent implements OnInit {
