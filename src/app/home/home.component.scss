@@ -1,0 +1,21 @@
+mat-toolbar { 
+  justify-content: flex-end; 
+  
+  a { 
+    display: inline-block; 
+    margin: 0 10px; 
+    font-size: 1.2rem; 
+    font-weight: 400;
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+  
+    &:first-of-type {
+      margin-left: 0; 
+    }
+  
+    &:last-of-type {
+      margin-right: 0; 
+    }
+  }
+}
